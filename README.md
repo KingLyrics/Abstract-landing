@@ -1,5 +1,3 @@
-# Abstract-landing
-
 # Abstract Landing Page
 
 This is a recreated landing page inspired by the design of Abstract. The landing page is built using Tailwind CSS and Typescript.
@@ -51,11 +49,11 @@ The project's folder structure is organized as follows:
 abstract-landing-page/
   ├── src/                  # Source code directory
   │   ├── assets/           # Images, icons, and other static assets
-  │   ├── components/       # Reusable UI components
-  │   ├── pages/            # Individual page components
-  │   ├── styles/           # Global styles and Tailwind CSS configuration
-  │   ├── App.tsx           # Main application component
-  │   └── index.tsx         # Entry point file
+  │   ├── App.tsx/            # Main application component
+  │   ├── Card.tsx/            # Individual Card component
+  │   ├── Footer.tsx/           # Individual Footer component
+  │   ├── index.css           # Tailwind imports
+  │   └── main.tsx         # Entry point file
   ├── public/               # Public assets (e.g., index.html, favicon.ico)
   ├── package.json          # Project dependencies and scripts
   ├── tsconfig.json         # TypeScript configuration
@@ -74,4 +72,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Thank you for checking out the Abstract Landing Page! If you have any questions or feedback, please don't hesitate to reach out.
 
-Created by [Your Name]
+Created by [Ekomobong Edeme]
